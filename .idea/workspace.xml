@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="56af7d89-64ef-4e51-a147-d4fe98a7d34a" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/$tripadvisor_spider.coverage" NAME="tripadvisor_spider Coverage Results" MODIFIED="1532423292345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$err.coverage" NAME="err Coverage Results" MODIFIED="1532078459013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pymysql" />
+    <SUITE FILE_PATH="coverage/$hotel_spider__2_.coverage" NAME="hotel_spider (2) Coverage Results" MODIFIED="1533016996495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/酒店列表/酒店列表" />
+    <SUITE FILE_PATH="coverage/$city_hotels_2.coverage" NAME="city_hotels_2 Coverage Results" MODIFIED="1532655042982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$city_spider_plus.coverage" NAME="city_spider_plus Coverage Results" MODIFIED="1532506611912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$city_spider_plus2.coverage" NAME="city_spider_plus2 Coverage Results" MODIFIED="1532515047835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$test.coverage" NAME="test Coverage Results" MODIFIED="1532685763051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$conn_mysql.coverage" NAME="conn_mysql Coverage Results" MODIFIED="1532078674864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$hotel_spider__1_.coverage" NAME="hotel_spider (1) Coverage Results" MODIFIED="1532926349662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$hotel_spider.coverage" NAME="hotel_spider Coverage Results" MODIFIED="1533005252909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/酒店列表" />
+    <SUITE FILE_PATH="coverage/$city_spider.coverage" NAME="city_spider Coverage Results" MODIFIED="1532501459197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$get_proxies.coverage" NAME="get_proxies Coverage Results" MODIFIED="1532484595004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1532500820544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$city_hotels_0727.coverage" NAME="city_hotels_0727 Coverage Results" MODIFIED="1532921619979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/酒店列表" />
+    <SUITE FILE_PATH="coverage/$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1533005075848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/酒店列表" />
+    <SUITE FILE_PATH="coverage/$tool.coverage" NAME="tool Coverage Results" MODIFIED="1532514349388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$city_hotels.coverage" NAME="city_hotels Coverage Results" MODIFIED="1532685994808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="trip_spider@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="trip_spider@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="trip_spider@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="trip_spider: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="trip_spider@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="trip_spider: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="city_hotels_0727: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="脚本" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="hotel_spider.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/酒店列表/酒店列表/hotel_spider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="537">
+              <caret line="227" column="33" selection-start-line="227" selection-start-column="33" selection-end-line="227" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="已抓取酒店url_v1.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/酒店列表/酒店列表/已抓取酒店url_v1.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-185">
+              <caret line="2567" column="28" selection-start-line="2567" selection-start-column="28" selection-end-line="2567" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>https://www.tripadvisor.cn/Hotels-g673774-Pitcairn_Islands-Hotels.html</find>
+      <find>https://www.tripadvisor.cn/Hotels-g60666-Johnston_Atoll-Hotels.html</find>
+      <find>https://www.tripadvisor.cn/Hotels-g153339-oa460-Canada-Hotels.html</find>
+      <find>https://www.tripadvisor.cn/Hotels-g255055-oa340-Australia-Hotels.html</find>
+      <find>https://www.tripadvisor.cn/Hotels-g187070-oa2380-France-Hotels.html</find>
+      <find>https://www.tripadvisor.cn/Hotels-g187275-oa1840-Germany-Hotels.html</find>
+      <find>https://www.tripadvisor.cn/Hotels-g255337-Gold_Coast_Queensland-Hotels.html</find>
+      <find>https://www.tripadvisor.cn/Hotels-g293925-Ho_Chi_Minh_City-Hotels.html</find>
+      <find>https://www.tripadvisor.cn/Hotels-g1077156-Shiroka_Laka_Smolyan_Province-Hotels.html</find>
+      <find>Hotels-g1554764-Vinh_Nghe_An_Province-Hotels.html</find>
+      <find>Hotels-g294458-Bucharest-Hotels.html</find>
+      <find>https://www.tripadvisor.cn/Hotels-g7740415-Snuol_Kratie_Province-Hotels.html</find>
+      <find>https://www.tripadvisor.cn/Hotels-g1438527-Vanadzor_Lori_Province-Hotels.html</find>
+      <find>https://www.tripadvisor.cn/Hotels-g293845-Thimphu_Thimphu_District-Hotels.html</find>
+      <find>&quot;得不到页码url_20180728.txt&quot;</find>
+      <find>https://www.tripadvisor.cn/Hotels-g1532269-Koh_Kong_Koh_Kong_Province-Hotels.html</find>
+      <find>repr</find>
+      <find>https://www.tripadvisor.cn/Hotel_Review-g294212-d505947-Reviews-Jade_Garden_Hotel-Beijing.html</find>
+      <find>https://www.tripadvisor.cn/Hotel_Review-g298559-d12722159-Reviews-Songyun_Yishu_Hotel-Hangzhou_Zhejiang.html</find>
+      <find>https://www.tripadvisor.cn/Hotel_Review-g665314-d11899104-Reviews-Tas_House-Kostanay_Kostanay_Province.html</find>
+      <find>Kabul Star Hotel</find>
+      <find>Safi Landmark Hotel</find>
+      <find>https://www.tripadvisor.cn/Hotel_Review-g293932-d6206559-Reviews-Forum_Hotel-Yerevan.html</find>
+      <find>https://www.tripadvisor.cn/Hotel_Review-g293932-d10671718-Reviews-Best_Hostel_Republic_Square-Yerevan.html</find>
+      <find>https://www.tripadvisor.cn/Hotel_Review-g298251-d8426081-Reviews-Almaty_Hostel_Dom-Almaty.html</find>
+      <find>Thimphu</find>
+      <find>Medeu-Almaty</find>
+      <find>伊瓜苏套房酒店</find>
+      <find>https://www.tripadvisor.cn/Hotel_Review-g312771-d2568989-Reviews-Minas_Hotel-Mina_Clavero_Province_of_Cordoba_Central_Argentina.html</find>
+      <find>https://www.tripadvisor.cn/Hotel_Review-g293845-d5606095-Reviews-Hotel_Destiny_Bhutan-Thimphu_Thimphu_District.html</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/conn_mysql.py" />
+        <option value="/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tomorrow/tomorrow.py" />
+        <option value="$PROJECT_DIR$/error_websites.txt" />
+        <option value="$PROJECT_DIR$/cities.txt" />
+        <option value="$PROJECT_DIR$/地区酒店URL2.txt" />
+        <option value="$PROJECT_DIR$/get_proxies.py" />
+        <option value="$PROJECT_DIR$/proxies.txt" />
+        <option value="$PROJECT_DIR$/地区酒店URL1.txt" />
+        <option value="$PROJECT_DIR$/test1.py" />
+        <option value="$PROJECT_DIR$/city_spider_plus.py" />
+        <option value="$PROJECT_DIR$/地区酒店URL.txt" />
+        <option value="$PROJECT_DIR$/国家页失败链接.txt" />
+        <option value="$PROJECT_DIR$/国家页失败链接_temp.txt" />
+        <option value="$PROJECT_DIR$/city_spider.py" />
+        <option value="$PROJECT_DIR$/列表页失败链接_temp2.txt" />
+        <option value="$PROJECT_DIR$/tool.py" />
+        <option value="$PROJECT_DIR$/列表页失败链接_temp1.txt" />
+        <option value="$PROJECT_DIR$/列表页失败链接_temp.txt" />
+        <option value="$PROJECT_DIR$/city_spider_plus2.py" />
+        <option value="$PROJECT_DIR$/列表页失败链接.txt" />
+        <option value="$PROJECT_DIR$/tripadvisor_spider.py" />
+        <option value="$PROJECT_DIR$/酒店详情URL_20180725.txt" />
+        <option value="$PROJECT_DIR$/得不到页码url.txt" />
+        <option value="$PROJECT_DIR$/test.html" />
+        <option value="$PROJECT_DIR$/城市酒店失败url2.txt" />
+        <option value="$PROJECT_DIR$/城市酒店失败url.txt" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/10a20b45-0da1-45f4-811c-5fba7fb52e6e/console.sql" />
+        <option value="$PROJECT_DIR$/得不到页码url_20180728.txt" />
+        <option value="$PROJECT_DIR$/城市酒店失败url_2.txt" />
+        <option value="$PROJECT_DIR$/已抓取城市url.txt" />
+        <option value="$PROJECT_DIR$/已抓取城市url_20180728.txt" />
+        <option value="$PROJECT_DIR$/city_hotels_2.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/city_hotels.py" />
+        <option value="$PROJECT_DIR$/已抓取城市url_20180728_1.txt" />
+        <option value="$PROJECT_DIR$/city_hotels_0727.py" />
+        <option value="$PROJECT_DIR$/酒店列表/城市酒店失败url_v1.txt" />
+        <option value="$PROJECT_DIR$/酒店列表/已抓取城市url_v1.txt" />
+        <option value="$PROJECT_DIR$/酒店列表/得不到页码url_v1.txt" />
+        <option value="$PROJECT_DIR$/酒店列表/uncral_201807292349.txt" />
+        <option value="$PROJECT_DIR$/hotel_spider.py" />
+        <option value="$PROJECT_DIR$/酒店列表/1_10000.txt" />
+        <option value="$PROJECT_DIR$/酒店列表/city_hotels_0727.py" />
+        <option value="$PROJECT_DIR$/酒店列表/test.py" />
+        <option value="$PROJECT_DIR$/酒店列表/hotel_spider.py" />
+        <option value="$PROJECT_DIR$/酒店列表/已抓取酒店url_v1.txt" />
+        <option value="$PROJECT_DIR$/酒店列表/酒店请求失败url.txt" />
+        <option value="$PROJECT_DIR$/酒店列表/full_page_failed.txt" />
+        <option value="$PROJECT_DIR$/酒店列表/酒店列表/酒店请求失败url.txt" />
+        <option value="$PROJECT_DIR$/酒店列表/酒店列表/已抓取酒店url_v1.txt" />
+        <option value="$PROJECT_DIR$/酒店列表/酒店列表/hotel_spider.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="203" />
+    <option name="width" value="1440" />
+    <option name="height" value="825" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="脚本" type="b2602c69:ProjectViewProjectNode" />
+              <item name="脚本" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="脚本" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backup_0727" />
+      <recent name="$PROJECT_DIR$/酒店列表" />
+      <recent name="$PROJECT_DIR$/backup" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.hotel_spider (2)">
+    <configuration name="city_hotels_0727" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="脚本" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/酒店列表" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/酒店列表/city_hotels_0727.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="hotel_spider (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="脚本" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hotel_spider.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="hotel_spider (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="脚本" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/酒店列表/酒店列表" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/酒店列表/酒店列表/hotel_spider.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="hotel_spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="脚本" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/酒店列表" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/酒店列表/hotel_spider.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="脚本" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/酒店列表" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/酒店列表/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.city_hotels_0727" />
+      <item itemvalue="Python.hotel_spider" />
+      <item itemvalue="Python.hotel_spider (1)" />
+      <item itemvalue="Python.test (1)" />
+      <item itemvalue="Python.hotel_spider (2)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.hotel_spider (2)" />
+        <item itemvalue="Python.hotel_spider" />
+        <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python.hotel_spider (1)" />
+        <item itemvalue="Python.city_hotels_0727" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="56af7d89-64ef-4e51-a147-d4fe98a7d34a" name="Default" comment="" />
+      <created>1531991631364</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1531991631364</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="810" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32934928" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28726876" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32933334" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.76829267" visible="true" weight="0.22152779" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3298611" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" sideWeight="0.50396824" side_tool="true" weight="0.24305555" />
+      <window_info id="Favorites" order="2" sideWeight="0.23170732" side_tool="true" weight="0.22152779" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39733332" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.32891247" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/backup/酒店URL（不带HTML）.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="-11095">
+          <caret line="11" column="135" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backup/地区酒店URL.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324">
+          <caret line="128" column="69" lean-forward="true" selection-start-line="128" selection-start-column="69" selection-end-line="128" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backup_0727/酒店详情URL.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backup/酒店详情URL_20180725.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/error_websites.txt" />
+    <entry file="file://$PROJECT_DIR$/task_201807231957.txt" />
+    <entry file="file://$PROJECT_DIR$/tripadvisor_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1395">
+          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backup/得不到页码url.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backup/得不到页码url_2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2567" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/10a20b45-0da1-45f4-811c-5fba7fb52e6e/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33" selection-start-column="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backup/得不到页码url_20180727.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1498">
+          <caret line="187" column="65" lean-forward="true" selection-start-line="187" selection-start-column="65" selection-end-line="187" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/城市酒店失败url_2.txt" />
+    <entry file="file://$PROJECT_DIR$/城市酒店失败url2.txt" />
+    <entry file="file://$PROJECT_DIR$/city_hotels_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="88" column="2" selection-start-line="88" selection-start-column="2" selection-end-line="88" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backup/城市酒店失败url.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="4199" column="14" selection-start-line="4199" selection-start-column="14" selection-end-line="4199" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backup/城市酒店失败url_20180727.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="1329" column="48" selection-start-line="1329" selection-start-column="48" selection-end-line="1329" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backup/得不到页码url_20180728.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3921">
+          <caret line="832" column="62" selection-start-line="832" selection-start-column="62" selection-end-line="832" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backup/已抓取城市url_20180728.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="6348" lean-forward="true" selection-start-line="6348" selection-end-line="6348" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city_hotels.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="83" column="26" lean-forward="true" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backup/已抓取城市url_20180728_1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backup/城市酒店失败url_20180728.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1223" column="30" selection-start-line="1223" selection-start-column="30" selection-end-line="1223" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backup/城市酒店失败url_v1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42048">
+          <caret line="3218" column="71" selection-start-line="3218" selection-start-column="71" selection-end-line="3218" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxies.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/酒店列表/uncral_201807292349.txt" />
+    <entry file="file://$PROJECT_DIR$/酒店列表/uncral_201807292351.txt" />
+    <entry file="file://$PROJECT_DIR$/酒店列表/task_201807292351.txt" />
+    <entry file="file://$PROJECT_DIR$/酒店列表/task_201807292349.txt" />
+    <entry file="file://$PROJECT_DIR$/酒店列表/all_hotels_new.txt" />
+    <entry file="file://$PROJECT_DIR$/hotel_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="48" column="18" lean-forward="true" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+        </state>
+      </provider>
+      <provider editor-type-id="LargeFileEditor">
+        <state relative-caret-position="398">
+          <caret line="144" column="27" lean-forward="true" selection-start-line="144" selection-start-column="27" selection-end-line="144" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/酒店列表/country_cities_20180725.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backup/得不到页码url_v1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="26" column="66" selection-start-line="26" selection-start-column="66" selection-end-line="26" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/酒店列表/haoqiao_city_20180731.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="139">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backup_0727/已抓取城市url_v1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="40643" column="45" selection-start-line="40643" selection-start-column="45" selection-end-line="40643" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/酒店列表/all_hotels.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="15">
+          <caret line="1151" column="47" selection-start-line="1151" selection-start-column="47" selection-end-line="1151" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/酒店列表/haoqiao_tripadvisor_city.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/酒店列表/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="19" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/酒店列表/已抓取酒店url_v1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/酒店列表/酒店请求失败url.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/酒店列表/full_page_failed.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/酒店列表/hotel_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/酒店列表/city_hotels_0727.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/酒店列表/酒店列表/酒店请求失败url.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tomorrow/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tomorrow/tomorrow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/酒店列表/酒店列表/已抓取酒店url_v1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-185">
+          <caret line="2567" column="28" selection-start-line="2567" selection-start-column="28" selection-end-line="2567" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/酒店列表/酒店列表/hotel_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="227" column="33" selection-start-line="227" selection-start-column="33" selection-end-line="227" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
